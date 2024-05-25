@@ -1,0 +1,128 @@
+body {
+    font-family: system-ui;
+    margin: 0;
+}
+
+#citySearchForm {
+    display: flex;
+    align-items: center;
+    width: 50%; /* Width of the search container */
+    background-color: #A3CDE5;
+    height: 30px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+.search-icon {
+    width: 20px; /* Width of the search icon */
+    height: 20px; /* Height of the search icon */
+    margin-right: 10px; /* Space between the icon and the input */
+}
+
+.search-input {
+    width: 100%; /* Make the input take the full width of the container */
+    padding: 15px 20px; /* Adjust padding to make it larger */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: transparent; /* Make the background transparent */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    outline: none; /* Remove default input outline */
+    font-size: 25px; /* Adjust font size if needed */
+    color: #333; /* Text color */
+}
+
+.search-input::placeholder {
+    color: #999; /* Adjust placeholder text color */
+}
+
+button[type="submit"] {
+    background-color: #278697; /* Green background for button */
+    color: white;
+    padding: 15px 40px; /* Increase button padding */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer; /* Add cursor pointer on hover */
+    margin: 10px 0; /* Add margin bottom of 10px */
+    display: block; /* Make the button display as block to center horizontally */
+    margin-left: auto;
+    margin-right: auto; /* Center the button horizontally */
+}
+
+#searchResults {
+    background-color: transparent; /* Initially set to transparent */
+    color: black; /* Set text color to black */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Add some padding for better readability */
+    width: 50%;
+    border-radius: 20px; /* Add rounded corners for a smoother look */
+    overflow-y: auto;
+    height: 300px; /* Example height */
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+/* WEATHER CSS */
+
+#weatherSearchForm {
+    display: flex;
+    align-items: center;
+    width: 50%; /* Width of the search container */
+    background-color: #A3CDE5;
+    height: 30px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+#weatherResults {
+    background-color: transparent; /* Initially set to transparent */
+    color: black; /* Set text color to black */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Add some padding for better readability */
+    width: 50%;
+    border-radius: 20px; /* Add rounded corners for a smoother look */
+    overflow-y: auto;
+    height: 300px; /* Example height */
+    font-size: 20px;
+}
+
+/* TIME SEARCH */
+
+.text-time{
+    margin-top: 220px;
+}
+
+#timeSearchForm {
+    display: flex;
+    align-items: center;
+    width: 50%; /* Width of the search container */
+    background-color: #A3CDE5;
+    height: 30px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+#timeResults {
+    background-color: transparent; /* Initially set to transparent */
+    color: black; /* Set text color to black */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Add some padding for better readability */
+    width: 50%;
+    border-radius: 20px; /* Add rounded corners for a smoother look */
+    overflow-y: auto;
+    height: 300px; /* Example height */
+    font-size: 20px;
+}

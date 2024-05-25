@@ -1,0 +1,79 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.search-form label {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold; /* Make label text bold */
+    font-size: 16px; /* Increase label font size */
+}
+
+.search-input {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%; /* Increase input width to fill container */
+    font-size: 18px; /* Increase input font size */
+}
+
+#searchResults {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#searchResults ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#searchResults li {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#searchResults li strong {
+    font-weight: bold;
+}
+
+#searchResults li {
+    margin-bottom: 10px;
+    /* Highlight searched term with yellow background */
+    background-color: rgba(255, 55, 0, 0.2); /* Changed highlight color to yellow */
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#searchResults li span {
+    /* Remove yellow highlight from span */
+    background-color: transparent;
+}
+
+
+
+button[type="submit"]:hover {
+    background-color: #45A049; /* Darker green on hover */
+}
+
+

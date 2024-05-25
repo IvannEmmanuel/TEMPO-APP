@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Distribute space between elements */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Optional: add some padding */
+    background-color: #fff; /* Optional: set a background color */
+}
+
+.tempo {
+    width: 250px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center; /* Center the username and user icon vertically */
+    gap: 10px; /* Space between username and icon */
+}
+
+.user-icon {
+    cursor: pointer;
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.user-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Circular container */
+    background-color: #A3CDE5; /* Color of the outer circle */
+    padding: 5px; /* Space for the outer circle */
+}
+
+.username{
+    font-weight: bold;
+    font-size: large;
+}
