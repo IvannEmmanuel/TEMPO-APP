@@ -1,6 +1,7 @@
 body {
     font-family: system-ui;
     margin: 0;
+    overflow-y: hidden;
 }
 
 #citySearchForm {
@@ -59,7 +60,7 @@ button[type="submit"] {
     width: 50%;
     border-radius: 20px; /* Add rounded corners for a smoother look */
     overflow-y: auto;
-    height: 300px; /* Example height */
+    height: 280px; /* Example height */
     font-size: 20px;
 }
 
@@ -97,10 +98,6 @@ h1 {
 }
 
 /* TIME SEARCH */
-
-.text-time{
-    margin-top: 220px;
-}
 
 #timeSearchForm {
     display: flex;
