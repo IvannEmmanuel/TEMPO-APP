@@ -1,21 +1,22 @@
 <?php
 
- namespace App\Models;
+namespace App\Models;
 
- use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
- class SignUp extends Model{
-
+class SignUp extends Model
+{
+    // Specify the table name
     protected $table = 'DataSignUp';
 
-    // column sa table
-
+    // Define the fillable attributes
     protected $fillable = [
         'username', 'password', 'gender', 'birthday', 'age', 'address',
     ];
 
+    // Define the primary key
     protected $primaryKey = 'uid';
 
+    // Disable timestamps
     public $timestamps = false;
-
- }
+}
